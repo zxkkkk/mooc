@@ -1,0 +1,40 @@
+/* 必写常用样式 */
+/* 版心 */
+.w {
+    width: 1152px;
+    margin: 0 auto;
+}
+
+/* 左右浮动 */
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+
+/*清除浮动*/
+.clearfix {
+    *zoom: 1
+}
+
+
+/* 隐藏样式 */
+.hide,
+.none {
+    display: none;
+}
+
+/* 白色背景 */
+.bg-white {
+    background-color: #fff;
+}

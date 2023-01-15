@@ -1,0 +1,79 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "309936",
+      "name": "qq",
+      "font_class": "qq",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "356472",
+      "name": "时钟",
+      "font_class": "shizhong",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "356478",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "986226",
+      "name": "微信",
+      "font_class": "weixin-copy",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "1049964",
+      "name": "右三角",
+      "font_class": "yousanjiao",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "2071350",
+      "name": "angle-left",
+      "font_class": "angle-left",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "2071351",
+      "name": "angle-right",
+      "font_class": "angle-right",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "6446311",
+      "name": "购物车",
+      "font_class": "tianchongxing-",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "8634398",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e516",
+      "unicode_decimal": 58646
+    },
+    {
+      "icon_id": "15282832",
+      "name": "收藏02",
+      "font_class": "shoucang02",
+      "unicode": "e6e6",
+      "unicode_decimal": 59110
+    }
+  ]
+}
