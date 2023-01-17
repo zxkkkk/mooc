@@ -1,0 +1,110 @@
+/* 学习路线总体布局开始 */
+#route {
+  padding: 55px 0;
+}
+
+
+.route-box {
+  height: 400px;
+}
+
+.route-box .title {
+  height: 36px;
+}
+
+.route-box .route-list {
+  height: 568px;
+  /* background-color: rgb(211, 239, 249); */
+}
+
+/* 学习路线总体布局结束 */
+
+/* 标题栏 */
+.route-box .title {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.route-box .title img {
+  width: 140px;
+  margin-bottom: -8px;
+}
+
+.route-box .title a {
+  padding: 0 10px;
+  font-size: 14px;
+  font-weight: 400;
+  transition: .3s;
+}
+
+.route-box .title a:hover {
+  color: #ec1500;
+}
+
+.route-box .title a.active {
+  border-bottom: 2px solid #ec1500;
+  padding-bottom: 5px;
+  font-weight: 700;
+}
+
+/* 课程列表开始 */
+.route-box .route-list ul {
+  display: none;
+  width: 1176px;
+}
+
+/* 当前选中的类别，显示 */
+.route-box .route-list ul.current {
+  display: block;
+}
+
+.route-box .route-list ul li {
+  position: relative;
+  float: left;
+  width: 368px;
+  height: 178px;
+  margin: 0 24px 24px 0;
+  border-radius: 8px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .1);
+  transition: all .2s;
+}
+
+.route-box .route-list ul li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .3);
+  cursor: pointer;
+}
+
+.route-box .route-list ul li img {
+  width: 368px;
+  border-radius: 8px 8px 0 0;
+}
+
+.route-box .route-list .title {
+  margin-left: 5px;
+  margin-top: -5px;
+  color: #545C63;
+  padding-bottom: 3px;
+}
+
+.route-box .route-list .bottom {
+  position: absolute;
+  width: 368px;
+  bottom: 10px;
+  left: 10px;
+}
+
+.bottom .left {
+  padding: 1px 3px;
+  font-size: 12px;
+}
+
+.bottom .right {
+  position: absolute;
+  display: inline-block;
+  font-size: 12px;
+  padding: 5px 3px 1px 3px;
+  right: 20px;
+}
+
+/* 课程列表结束 */
