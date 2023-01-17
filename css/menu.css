@@ -1,0 +1,32 @@
+#menu {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 120px;
+  background-image: url(https://moco.imooc.com/static/activity/2023spring/images/bg-left.png);
+  background-repeat: no-repeat;
+  background-size: 128px auto;
+  background-position: -4px 0;
+  padding-top: 192px;
+  color: #fff;
+  background-color: #d72622;
+  border-radius: 0 8px 8px 0;
+  text-align: center;
+  z-index: 100;
+  user-select: none;
+}
+
+#menu li {
+  padding: 16px 0;
+  cursor: pointer;
+  transition: .2s;
+}
+
+#menu a {
+  color: #fff;
+}
+
+#menu a:hover {
+  color: rgb(217, 217, 80);
+}
