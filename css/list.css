@@ -1,0 +1,180 @@
+/* list整体布局开始 */
+#course-list {
+  padding: 100px 0 0px 0;
+}
+
+.course-list-box {
+  height: 550px;
+}
+
+.course-list-box .title {
+  height: 36px;
+  margin-top: -13px;
+}
+
+/* list整体布局结束 */
+
+/* 标题栏开始 */
+.course-list-box .title img {
+  position: relative;
+  width: 180px;
+}
+
+.course-list-box .title .tips {
+  position: absolute;
+  display: inline-block;
+  font-size: 14px;
+  height: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  margin-left: 28px;
+  margin-top: 14px;
+}
+
+/* 标题栏结束 */
+
+
+/* 榜单开始 */
+.course-list-box .list-box {
+  padding-top: 27px;
+}
+
+.course-list-box .list-box .list {
+  position: relative;
+  width: 367px;
+  height: 400px;
+  background: #fff;
+  box-shadow: 0 6px 12px 0 rgb(55 55 55 / 20%);
+  border-radius: 6px;
+  margin-left: 15px;
+}
+
+.course-list-box .list-box .list:first-child {
+  margin-left: 0;
+}
+
+.course-list-box .list-box .list .top-icon1 {
+  position: relative;
+  width: 129px;
+  height: 43px;
+  line-height: 32px;
+  left: 119px;
+  top: -7px;
+  background-image: url(../imagesstst-top1.png);
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.course-list-box .list-box .list .top-icon2 {
+  position: relative;
+  width: 129px;
+  height: 43px;
+  line-height: 32px;
+  left: 119px;
+  top: -7px;
+  background-image: url(../imagesstst-top2.png);
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.course-list-box .list-box .list .top-icon3 {
+  position: relative;
+  width: 129px;
+  height: 43px;
+  line-height: 32px;
+  left: 119px;
+  top: -7px;
+  background-image: url(../imagesstst-top3.png);
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.course-list-box .list-box .list .body a {
+  display: block;
+  position: relative;
+  width: 367px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.course-list-box .list-box .list .body a .num {
+  width: 19px;
+  height: 22px;
+  margin-left: 16px;
+  margin-bottom: 30px;
+}
+
+.course-list-box .list-box .list .body a .img {
+  width: 142px;
+  height: 80px;
+  margin-left: 8px;
+  margin-top: 14px;
+}
+
+.course-list-box .list-box .list .body a .title {
+  position: absolute;
+  display: inline-block;
+  width: 144px;
+  height: 40px;
+  color: #545c63;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 10px;
+  top: 26px;
+}
+
+.course-list-box .list-box .list .body a .price {
+  position: absolute;
+  display: inline-block;
+  width: 144px;
+  height: 18px;
+  color: #f01414;
+  font-size: 13px;
+  font-weight: 600;
+  top: 54px;
+  margin-left: 8px;
+}
+
+.course-list-box .list-box .list .body a .count {
+  position: absolute;
+  display: inline-block;
+  width: 144px;
+  height: 18px;
+  color: #9199a1;
+  font-weight: 400;
+  font-size: 10px;
+  top: 75px;
+  margin-left: 9px;
+}
+
+.course-list-box .list-box .list .body .bottom {
+  position: relative;
+  width: 120px;
+  height: 24px;
+  margin: 36px auto;
+  font-size: 12px;
+  color: #fff;
+  line-height: 24px;
+  font-weight: 500;
+  background-image: linear-gradient(270deg, #ff4f39 0, #fd6400 100%);
+  border-radius: 12px;
+  text-align: start;
+}
+
+.course-list-box .list-box .list .body .bottom span {
+  position: absolute;
+  display: inline-block;
+
+}
+
+/* 榜单结束 */

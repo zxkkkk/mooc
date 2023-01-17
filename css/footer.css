@@ -1,0 +1,53 @@
+#footer {
+  padding: 32px 0;
+}
+
+.footer-box {
+  position: relative;
+  height: 150px;
+}
+
+.footer-box .help {
+  margin-bottom: 20px;
+}
+
+.footer-box .help ul li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.footer-box .bottom {
+  font-size: 10px;
+}
+
+.footer-box .icon {
+  float: right;
+  position: absolute;
+  margin-top: -60px;
+  right: 0;
+}
+
+.footer-box .icon span {
+  display: inline-block;
+  background-color: rgb(184, 184, 184);
+  color: white;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 26px;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+
+.footer-box .icon span:hover {
+  background-color: #333;
+}
+
+.footer-box .icon p {
+  font-size: 10px;
+  margin-top: 10px;
+  margin-left: -10px;
+  color: #333;
+
+}
