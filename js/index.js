@@ -157,3 +157,80 @@
   }
 
 }
+
+// 倒计时
+{
+  // 获取结束时间点的时间戳
+  let endDate = new Date('2023-1-14 11:20:30');
+  endDate = parseInt(endDate.getTime() / 1000);
+  console.log(endDate);
+
+  let timer = null;
+
+  // 获取页面的小时，分，秒标签
+  const hourDom = document.getElementById('hour');
+  const minDom = document.getElementById('min');
+  const secDom = document.getElementById('sec');
+
+  function coundDown() {
+    // 获取此刻的时间的时间戳
+    let nowDate = new Date();
+    nowDate = parseInt(nowDate.getTime() / 1000);
+
+    // 计算剩余的总秒数
+    let seconds = endDate - nowDate;
+    // 根据总秒数换算
+    if (seconds >= 0) {
+      let hours = parseInt(seconds / 3600);
+      hours = hours > 9 ? hours : '0' + hours;
+      let mins = parseInt(seconds % 3600 / 60);
+      mins = mins > 9 ? mins : '0' + mins;
+      let secs = seconds % 3600 % 60;
+      secs = secs > 9 ? secs : '0' + secs;
+      console.log(hours, mins, secs);
+
+      // 把结果显示到页面
+      hourDom.innerText = hours;
+      minDom.innerText = mins;
+      secDom.innerText = secs;
+
+    } else {
+      // 清空计时器
+      clearInterval(timer);
+      document.querySelector('.countdown p').innerText = '拼团已结束';
+      hourDom.innerText = '00';
+      minDom.innerText = '00';
+      secDom.innerText = '00';
+    }
+  }
+  coundDown();
+
+  // 启动定时器
+  timer = setInterval(() => {
+    coundDown();
+  }, 1000);
+}
+
+// 滚动课程
+{
+  const ul = document.querySelector('.sk-list ul');
+
+  let timer = null;
+
+  let leftPx = 0;
+
+  timer = setInterval(() => {
+    leftPx = --leftPx == -1920 ? 0 : leftPx;
+    ul.style.left = leftPx + 'px'
+  }, 10);
+
+  ul.onmouseenter = function () {
+    clearInterval(timer);
+  }
+  ul.onmouseleave = function () {
+    timer = setInterval(() => {
+      leftPx = --leftPx == -1920 ? 0 : leftPx;
+      ul.style.left = leftPx + 'px';
+    }, 10);
+  }
+}
