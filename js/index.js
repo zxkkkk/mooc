@@ -257,3 +257,24 @@
 
 
 }
+// 课程切换(进站必学)
+{
+  // 获取所有的 a 标签 （tab 栏）
+  const tabs2 = document.querySelectorAll('.learn-box a');
+  // 获取到所有的课程列表
+  const uls2 = document.querySelectorAll('.learn-list ul');
+
+  for (let i = 0; i < tabs2.length; i++) {
+    // 循环为所有的 a 绑定点击事件
+    tabs2[i].onclick = function () {
+      // 清除所有的 a 和 ul 的样式
+      for (let j = 0; j < tabs2.length; j++) {
+        tabs2[j].className = '';
+        uls2[j].className = '';
+      }
+      // 给当前选中的 a 和 ul 添加样式
+      tabs2[i].className = 'active';
+      uls2[i].className = 'current';
+    }
+  }
+}
